@@ -12,7 +12,9 @@ function SideNavbar() {
             .then(data => setMenuItems(data))
             .catch(error => console.error("Fetch this error", error)
             )     
-    }, []);
+    },
+    
+    []);
 
     return (
         <div className="sidenav">
