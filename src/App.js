@@ -1,5 +1,5 @@
 import './App.css';
-import SideNavbar from './components/SideNavbar';
+import SideNavbar from './components/sideNavbar/SideNavbar';
 
 function App() {
   return (
