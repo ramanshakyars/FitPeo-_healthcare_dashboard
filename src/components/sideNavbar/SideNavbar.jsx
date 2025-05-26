@@ -9,6 +9,10 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import HistoryIcon from '@mui/icons-material/History';
 import BookOnlineIcon from '@mui/icons-material/BookOnline';
 import ChatIcon from '@mui/icons-material/Chat';
+import Statics from '../bodyPartsStatics/Statics';
+import Calender from '../calender/Calender';
+import Appointments from '../calender/Appointments';
+import HealthOfBody from '../bodyPartsStatics/HealthOfBody';
 
 const NAVIGATION = [
   {
@@ -111,10 +115,13 @@ export default function SideNavbar(props) {
       <DashboardLayout>
         <div className="grid grid-cols-2 gap-3">
           <div className='border-2 border-blue-500 h-full'>
-            we are boxes
+            <HealthOfBody />
+            <Statics />
           </div>
           <div className='border-2 border-blue-500 h-full'>
-            we are boxes
+            <Calender />
+            <Appointments />
+
           </div>
 
         </div>
