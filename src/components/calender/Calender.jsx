@@ -1,7 +1,7 @@
 export default function Calender() {
     return (
         <>
-            <div>
+            <div className=" bg-blue-100">
                 Calender
             </div>
 

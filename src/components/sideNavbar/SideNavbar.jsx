@@ -112,13 +112,13 @@ export default function SideNavbar(props) {
       theme={demoTheme}
       window={demoWindow}
     >
-      <DashboardLayout>
-        <div className="grid grid-cols-2 gap-3">
-          <div className='border-2 border-blue-500 h-full'>
+      <DashboardLayout className="">
+        <div className="grid sm:grid-cols-2 gap-2 m-4 bg-slate-200 rounded-lg">
+          <div className='h-full'>
             <HealthOfBody />
             <Statics />
           </div>
-          <div className='border-2 border-blue-500 h-full'>
+          <div className='h-full'>
             <Calender />
             <Appointments />
 
